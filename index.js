@@ -17,10 +17,10 @@ const gradesIndexes = {
 }
 
 const credentials = {
-  "ra": readline.question('Seu RA: '),
-  "digit": readline.question('Digito do RA: '),
-  "uf": readline.question('Sigla do seu estado (Ex: sp): '),
-  "password": readline.question('Senha do app CMSP Web: ')
+  "ra": readline.question('000108858304'),
+  "digit": readline.question('0'),
+  "uf": readline.question('sp'),
+  "password": readline.question('#Vi13022007')
 };
 
 ;(async () => {
